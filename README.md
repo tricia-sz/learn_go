@@ -44,8 +44,21 @@
  - var w string "isso é uma string"
  - var z init = 15
 - Tipos de dados primitivos: Disponiveis na linguagem nativamente com os blocos de contrucao.
- - Ex.  int, bool, string,
+ - Ex.  int, string, bool.
+
 - Tipos de dados compostos: Sao tipos compostos de tipos primitivos, e criado pelo usuario. 
  - Ex. Array, slice, struct, map.
- 
 
+### 05_ Valor zero
+- Declaração vs. Inicialização vs. Atribuicao de valor vaviaveis: caixas postais,
+- O que é valor zero.
+- Os zeros:
+ - ints: 0
+ - floats: 0.0
+ - booleans: false
+ - strings: ""
+ - pointers, funcs, interfaces, channels, maps, nil.
+ - Use := sempre que possivel
+ - Usar var para package-level scope.
+
+ 
