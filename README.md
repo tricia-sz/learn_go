@@ -1,4 +1,4 @@
-### 01_ Hello World
+### Hello World
 - Estrutura básica:
   - package main.
   - func main:
@@ -12,7 +12,7 @@
 - ... funções variáticas.
 - Lição principal: package main, func, main, pacoteIdentificador.
 
-### 02_ Operador Curto de Declaração
+### Operador Curto de Declaração
 - := (Formato de gopher)
 - Uso:
  - Tipagem automática
@@ -29,13 +29,13 @@
 - := utilizado para criar novas variaveis dentro de codeblocks
 - = usado para atribuir valores a variaveis ja existentes
 
-### 03_ A palavra-chave var
+### A palavra-chave var
 - Variavel declarada em um code block é undefined em outro
 - Para variaveis com abrangencia maior, package level scope, utilizamos `var`
 - funciona em escopo global
 - Prestar atenção nas chaves, colchetes e parenteses.
 
-### 04_ Explorando Tipos
+### Explorando Tipos
 - Tipos em Go são estáticos.
 - O tipo pode ser deduzido pelo compilador:
  - x := 10
@@ -49,7 +49,7 @@
 - Tipos de dados compostos: Sao tipos compostos de tipos primitivos, e criado pelo usuario. 
  - Ex. Array, slice, struct, map.
 
-### 05_ Valor zero
+### Valor zero
 - Declaração vs. Inicialização vs. Atribuicao de valor vaviaveis: caixas postais,
 - O que é valor zero.
 - Os zeros:
@@ -61,7 +61,7 @@
  - Use := sempre que possivel
  - Usar var para package-level scope.
 
-### 06_ Pacote fmt
+### Pacote fmt
 - Setup: strings, ints, bools.
 - Strings: interpreted string literals vs. raw string literals.
  - Rune literals.
@@ -81,7 +81,7 @@
     - func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)
     - func Fprintln(w io.Writer, a ...interface{}) (n int, err error)
   
-### 07_ Criando próprio tipo
+### Criando próprio tipo
  - Revisando: tipos em Go são extremamente importantes. (Veremos mais quando chegarmos em métodos e interfaces.)
  - Tem uma história que Bill Kennedy dizia que se um dia fizesse uma tattoo, ela diria "type is life."
  - Grande parte dos aspectos mais avançados de Go dependem quase que exclusivamente de tipos.
@@ -89,3 +89,9 @@
  - Revisando: tipos são fixos. Uma vez declarada uma variável como de um certo tipo, isso é imutável.
 type hotdog int → var b hotdog (main hotdog)
  - Uma variável de tipo hotdog não pode ser atribuida com o valor de uma variável tipo int, mesmo que este seja o tipo subjacente de hotdog.
+
+###  Conversão de tipos
+ - Conversão de tipos é o que soa.
+  - Em Go não se diz casting, se diz conversion.
+    - a = int(b)
+  - ref/spec#Conversions
