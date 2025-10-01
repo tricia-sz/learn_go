@@ -28,3 +28,24 @@
 - Lição Principal:
 - := utilizado para criar novas variaveis dentro de codeblocks
 - = usado para atribuir valores a variaveis ja existentes
+
+### 03_ A palavra-chave var
+- Variavel declarada em um code block é undefined em outro
+- Para variaveis com abrangencia maior, package level scope, utilizamos `var`
+- funciona em escopo global
+- Prestar atenção nas chaves, colchetes e parenteses.
+
+### 04_ Explorando Tipos
+- Tipos em Go são estáticos.
+- O tipo pode ser deduzido pelo compilador:
+ - x := 10
+ - var y = "Tia do batman"
+- Ou pode ser declarado especificamente:
+ - var w string "isso é uma string"
+ - var z init = 15
+- Tipos de dados primitivos: Disponiveis na linguagem nativamente com os blocos de contrucao.
+ - Ex.  int, bool, string,
+- Tipos de dados compostos: Sao tipos compostos de tipos primitivos, e criado pelo usuario. 
+ - Ex. Array, slice, struct, map.
+ 
+
