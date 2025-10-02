@@ -97,12 +97,21 @@ type hotdog int → var b hotdog (main hotdog)
   - ref/spec#Conversions
 ### Ex.1
 
-/* 
- Utilizando o operador curto de operacao, atribua estes valores as varias com os identificadores "x", "y" e "z".
-  1. 42
-  2. "James Bond"
-  3. true
-- Agora demostre valores nestas variaveis com:
- 1. Uma unica declaracao print.
- 2. Multiplas declaracoes print.
-*/
+
+  - Utilizando o operador curto de operacao, atribua estes valores as varias com os identificadores  "x", "y" e "z".
+    1. 42
+    2. "James Bond"
+    3. true
+ - Agora demostre valores nestas variaveis com:
+   1. Uma unica declaracao print.
+   2. Multiplas declaracoes print.
+
+### Ex.2
+
+- Use var para declarar 3 variaveis.  Elas devem ter package-level scope. Nao atruibua  valores a essas variaveis. Utilize os seguintes identificadores e tipos:
+ 1. X devera ser int
+ 2. y devera ser string
+ 3. z devera  ter tipo bool
+- Na funcao main:
+ 1. Demostre valores de cada identificador
+ 2. O compilador atribuiu valores para essas variaveis. Como esses valores se chamam?
